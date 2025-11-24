@@ -1,0 +1,67 @@
+# Ignore everything by default
+*
+
+# But track .gitignore itself
+!.gitignore
+
+# Track your notebook file(s)
+!*.ipynb
+
+
+
+# Don't track checkpoint files that Jupyter creates
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Don't track any data directories
+data/
+datasets/
+*.csv
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Don't track model files
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.h5
+models/
+checkpoints/
+
+# Don't track large files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Don't track image outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Don't track Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Don't track virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Don't track Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Don't track OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
