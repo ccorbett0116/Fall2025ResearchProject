@@ -6,6 +6,7 @@
 
 # Track your notebook file(s)
 !*.ipynb
+!README.md
 
 
 
