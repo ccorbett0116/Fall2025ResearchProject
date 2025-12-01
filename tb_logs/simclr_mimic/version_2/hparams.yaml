@@ -1,0 +1,4 @@
+base_model: resnet50
+lr: 0.001
+out_dim: 512
+temperature: 0.5
